@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Shoo Store</title>
+</head>
+
+<body>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+            </div>
+            <div class="navItem">
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">Nike</h3>
+            <h3 class="menuItem">JORDAN</h3>
+            <h3 class="menuItem">BLAZER</h3>
+            <h3 class="menuItem">CRATER</h3>
+            <h3 class="menuItem">HIPPIE</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="./img/jordan2.png" alt="Nike Air Force" class="sliderImage">
+                <div class="sliderBgCircle"></div>
+            </div>
+        </div>
+    </div>
+<div class="bonus_text_container">
+    <p class="bonus_text">
+        How to get welcome bonus on PANDABUY platform
+    </p>
+</div>
+    <!--  Features -->
+    <div class="features">
+        <div class="feature">
+            <img src="./img/teleprompter.png" alt="" class="featureIcon">
+            <span class="featureTitle">1</span>
+            <span class="featureDescription">Register or login on the PANDABUY platform using my referral link or referral code.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/investigation.png" alt="">
+            <span class="featureTitle">2</span>
+            <span class="featureDescription">Select the product you want.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="./img/global.png" alt="">
+            <span class="featureTitle">3</span>
+            <span class="featureDescription">Order your favorite item and enjoy it.</span>
+        </div>
+    </div>
+
+    <h1>Nike</h1>
+
+    <div class="menu">
+        <div class="item" id="Mid SE">
+            <img id="productImage" src="img/Air Jordan 4 Retro Lightning.jpg">
+            <br>Air Jordan 4 "Retro Lightning"<br><del>180$</del> 100$<span style="color: yellow; cursor: pointer;"
+                onclick="changeImage('img/Air Jordan 4 Retro Lightning.jpg')">●</span><span
+                style="color: black; cursor: pointer;"
+                onclick="changeImage('img/Air Jordan 4 Black Kat.jpg')">●</span><span
+                style="color: red; cursor: pointer;"
+                onclick="changeImage('img/Air Jordan 4 Retro Red Thunder.jpg')">●</span>
+                <span
+                style="color: rgb(215, 215, 215); cursor: pointer;"
+                onclick="changeImage('img/Air Jordan 4 Retro Tech White.jpg')">●</span>
+            <a href="page1.html">
+                <br><button class="add-to-cart-button">BUY ON PANDABUY</button>
+            </a>
+        </div>
+  
+
+        <script>
+            function changeImage(newImageSrc) {
+                document.getElementById("productImage").src = newImageSrc;
+            }
+        </script>
+
+
+        <div class="item" id="Retro High OG">
+            <img src="img/Air Jordan 4 Black Kat.jpg" class="pic">
+            <br>Air Jordan 4 "Black Cat" <br><del>180$</del> 100$
+            <a href="page2.html">
+
+                <br><button class="add-to-cart-button">Добавить в корзину</button>
+            </a>
+        </div>
+        <div class="item" id="Mid Sneaker School">
+            <img src="img/Air Jordan 4 Retro Red Thunder.jpg" class="pic">
+            <br>Air Jordan 4 Retro "Red Thunder" <br> <del>180$</del> 100$
+            <br><button class="add-to-cart-button">Добавить в корзину</button>
+        </div>
+        <div class="item" id="Retro High">
+            <img src="img/Air Jordan 4 Retro x Travis Scott Cactus Jack.jpg" class="pic">
+            <br>Air Jordan 4 Retro x Travis Scott 'Cactus Jack' <del>250$</del> 130$
+            <br><button class="add-to-cart-button">Добавить в корзину</button>
+        </div>
+        <div class="item" id="Air Retro Chicago">
+            <img src="https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/acc979db-e99d-488e-8791-7dcfcd7e2f37/air-jordan-1-ko-chicago-release-date.jpg"
+                class="pic">
+            <br>Air Jordan 1 High Retro Chicago 2015 <br> 65,000.00 PHP
+            <br><button class="add-to-cart-button">Добавить в корзину</button>
+        </div>
+        <div class="item" id="Air Dior">
+            <img src="https://stayfresh.ca/cdn/shop/products/diorjordanhi_600x.jpg?v=1595611104" class="pic">
+            <br>Jordan 1 Retro High Dior <br> 442,000.00 PHP
+            <br><button class="add-to-cart-button">Добавить в корзину</button>
+        </div>
+
+        <div class="item" id="Air RetroOG">
+            <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9d3fb63f-5493-47bd-afd6-487d87b2faaa/air-jordan-1-retro-high-og-craft-shoes-5mGWrz.png"
+                class="pic">
+            <br>Air Jordan 1 Retro High OG <br> 5,939.00 PHP
+            <br><button class="add-to-cart-button">Добавить в корзину</button>
+        </div>
+
+        <div class="item" id="Air Travis">
+            <img src="https://cdn.sneaktorious.com/_Resources/Persistent/2/4/8/3/24838127432dd0c5b226888ef1055c831b06673b/travis-scott-nike-air-jordan-1-high-reverse-mocha-2022-release-date-raffle-list-3-600x600.png"
+                class="pic">
+            <br>Travis Scott x Air Jordan 1 High "Reverse Mocha" <br> 9,679.20 PHP
+            <br><button class="add-to-cart-button">Добавить в корзину</button>
+        </div>
+        <div class="item" id="Air Diamond">
+            <img src="https://www.kingofkicks.co.uk/cdn/shop/products/PEARLECENTJORDAN1_800x.png?v=1646046451"
+                class="pic">
+            <br>Air Jordan 1 Mid SE 'Diamond'<br> 12,469.31 PHP
+            <br><button class="add-to-cart-button">Добавить в корзину</button>
+        </div>
+
+    </div>
+
+    <div class="gallery">
+        <div class="galleryItem">
+            <h1 class="galleyTitle">Будь собой</h1>
+            <img src="https://images.pexels.com/photos/9295809/pexels-photo-9295809.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImage">
+        </div>
+        <div class="galleryItem">
+            <img src="https://images.pexels.com/photos/1040427/pexels-photo-1040427.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImage">
+            <h1 class="galleryTitle">Это первый день вашей новой жизни</h1>
+        </div>
+        <div class="galleryItem">
+            <h1 class="galleryTitle">Just Do it</h1>
+            <img src="https://images.pexels.com/photos/7856965/pexels-photo-7856965.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                alt="" class="galleryImage">
+        </div>
+    </div>
+
+    <!-- New Season --> <!-- Footer -->
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="footerMenuTitle">About Us</h1>
+                <ul class="footerMenuList">
+                    <li class="footerListItem">Company</li>
+                    <li class="footerListItem">Contact</li>
+                    <li class="footerListItem">Careers</li>
+                    <li class="footerListItem">Affiliates</li>
+                    <li class="footerListItem">Stores</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="footerMenuTitle">Useful Links</h1>
+                <ul class="footerMenuList">
+                    <li class="footerListItem">Support</li>
+                    <li class="footerListItem">Refund</li>
+                    <li class="footerListItem">FAQ</li>
+                    <li class="footerListItem">Feedback</li>
+                    <li class="footerListItem">Stories</li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="footerMenuTitle">Products</h1>
+                <ul class="footerMenuList">
+                    <li class="footerListItem">Air Force</li>
+                    <li class="footerListItem">Air Jordan</li>
+                    <li class="footerListItem">Blazer</li>
+                    <li class="footerListItem">Crater</li>
+                    <li class="footerListItem">Hippie</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="footerMenuTitle">Subscribe to our newsletter</h1>
+                <div class="footerMail">
+                    <input type="text" placeholder="your@email.com" class="footerInput">
+                    <button class="footerButton">Join</button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="footerMenuTitle">Следите за нами</h1>
+                <div class="footerIcons">
+                    <img src="./img/tik-tok.png" alt="" class="footerIcon">
+                    <img src="./img/telegram (1).png" alt="" class="footerIcon">
+                    <img src="./img/instagram.png" alt="" class="footerIcon">
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">Step Up Shoes Все права защищены. 2023</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
